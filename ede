@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Home work #2</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap" rel="stylesheet">            
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <style type="text/css">
+        .conteiner{
+                display: flex;
+                width: 80%;
+                margin: 10px auto;
+                flex-direction: column;
+                text-align: center;
+
+        }
+        .head{
+                height: 50px;
+                background-color: #818035;
+                font-family: 'Kirang Haerang', cursive;
+                font-size: 20px;
+                color: rgb(109, 23, 23);
+
+        }
+
+        .main{
+                display: flex;
+                height: 500px;
+
+        }
+        .center{
+                width: 60%;
+                display: flex;
+                background-color: #3f3d42;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Kirang Haerang', cursive;
+                font-size: 20px;
+                color: rgb(231, 231, 241);
+                image-rendering: auto;
+
+        }
+        .left{
+                width: 15%;
+                background-color: #3a3b4b; 
+                font-family: 'Kirang Haerang', cursive;
+                font-size: 20px;
+                color: rgb(33, 77, 22);             
+
+        }
+        .right{
+                width: 25%;
+                background-color: #314042;
+                font-family: 'Kirang Haerang', cursive;
+                font-size: 20px;
+                color: rgb(204, 190, 61);
+
+        }
+        .bottom{
+                height: 100px;
+                background-color: #4b2823;
+                border: 5px solid;
+                font-family: 'Kirang Haerang', cursive;
+                font-size: 20px;
+                color: rgb(26, 26, 29);
+
+        }
+        #Lesson{
+                text-align: right;
+                font-family: 'Kirang Haerang', cursive;
+                font-size: 20px;
+                color: rgb(85, 3, 3);
+        
+        }
+    </style>
+</head>
+  <body>  
+    <header>
+    <h1 id="Lesson">Lesson 2 HW </h1>
+    </header>
+    <main>        
+        <div class="conteiner">
+            <div class="head">
+                <p>This is Head</p>
+        </div>
+                <!--верхняя часть-->
+
+            <div class="main">
+                <div class="left"> Left </div>
+                <div class="center"> Someting in the center </div>       
+                <div class="right"> right </div>
+            </div>
+                <!--Середина-->
+
+            <div class="bottom">
+                <p>This is bottom</p>
+        </div>   
+            <!--Нижняя часть-->
+    </main>
+    <footer>
+        <h2><p> Made by Dima &#169;</p></h2>   
+    </footer>
+
+ </body>
+</html>
